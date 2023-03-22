@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.cover {
+  height: 300px;
+  background-image: url(../images/Diseño\ sin\ título.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.titu {
+  font-size: 60px;
+  color: rgb(232, 232, 232);
+}
+
+.subt {
+  font-size: 40px;
+  color: rgb(232, 232, 232);
+}
+
+.prueba {
+  border: 1px solid black;
+}
+
+.foto-doctora {
+  size: 50%;
+}
+
+.texto-descriptivo {
+  border-radius: 30px;
+  background-color: rgb(232, 232, 232);
+  padding: 3%;
+}
