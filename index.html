@@ -13,15 +13,21 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">LOGO</a>
+          <a class="navbar-brand" href="#"
+            ><img src="./images/icons8-estetoscopio-64.png"
+          /></a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Endocrinologia</a>
+              <a class="nav-link" href="#">Endocrinología</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Turnos</a>
@@ -35,8 +41,10 @@
       <div
         class="cover d-flex justify-content-center align-items-center flex-column"
       >
-        <h1 class="titu">Dra. Camila Gallo</h1>
-        <p class="subt">Especialista en Endocrinologia</p>
+        <div class="presentacion flex-column">
+          <h1 class="titu">Dra. Camila Gallo</h1>
+          <p class="subt">Especialista en Endocrinología</p>
+        </div>
       </div>
       <section>
         <article class="container-lg">
@@ -49,15 +57,15 @@
             </div>
             <div class="col-sm-6 p-3 d-flex align-items-center">
               <div class="texto-descriptivo">
-                La Dra. Ana López es una médica especialista en endocrinología
-                con más de 10 años de experiencia en el tratamiento de
-                enfermedades relacionadas con el sistema endocrino. Después de
-                graduarse con honores de la Facultad de Medicina de la
-                Universidad Nacional de Buenos Aires, se especializó en
-                endocrinología en el Hospital de Clínicas de la misma
-                universidad, donde completó su residencia médica. <br />La Dra.
-                López ha dedicado su carrera a ayudar a sus pacientes a manejar
-                y tratar una amplia variedad de enfermedades endocrinas,
+                La Dra. Camila Gallo es una médica especialista en
+                endocrinología con más de 10 años de experiencia en el
+                tratamiento de enfermedades relacionadas con el sistema
+                endocrino. Después de graduarse con honores de la Facultad de
+                Medicina de la Universidad Nacional de Buenos Aires, se
+                especializó en endocrinología en el Hospital de Clínicas de la
+                misma universidad, donde completó su residencia médica. <br />La
+                Dra. López ha dedicado su carrera a ayudar a sus pacientes a
+                manejar y tratar una amplia variedad de enfermedades endocrinas,
                 incluyendo diabetes, hipotiroidismo, hipertiroidismo, trastornos
                 de la glándula pituitaria y enfermedades óseas como la
                 osteoporosis. Ella tiene una pasión por educar a sus pacientes
@@ -67,13 +75,114 @@
             </div>
           </div>
         </article>
-        <article class="container-lg text-center prueba">
+        <article
+          class="container-lg text-center p-3 mb-2 d-flex justify-content-center"
+        >
           <div class="row">
-            <div class="col">Endocrinologia</div>
-            <div class="col">Turnos</div>
-            <div class="col">Preguntas frecuentes</div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Endocrinología</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">¿Qué es?</h6>
+
+                  <p class="card-text">
+                    La endocrinología es una disciplina de la medicina que
+                    estudia el sistema endocrino y las enfermedades provocadas
+                    por un funcionamiento inadecuado del mismo.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    ¿Por qué es importante controlarse?
+                  </h5>
+                  <h6 class="card-subtitle mb-2 text-muted"></h6>
+                  <p class="card-text">
+                    Las hormonas del sistema endocrino ayudan a controlar el
+                    estado de ánimo, el crecimiento y el desarrollo, la forma en
+                    que funcionan los órganos, el metabolismo y la reproducción.
+                    Por lo tanto, es importante mantener el equilibrio adecuado
+                    de hormonas en el cuerpo para que las funciones corporales
+                    se realicen correctamente.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Preguntas frecuentes</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </article>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="contact-panel d-flex flex-wrap">
+                <form>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <h4>Turnos / Reservas particulares</h4>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="Nombre"
+                          name="contact-name"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div>
+                        <input type="text" placeholder="Email" />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="Telefono"
+                          name="contact-name"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <div>
+                        <input type="text" placeholder="Asunto" />
+                        <select>
+                          <option value="opcion1">Opcion 1</option>
+                          <option value="opcion2">Opcion 2</option>
+                          <option value="opcion3">Opcion 3</option></select
+                        >//chequear
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div>
+                      <textarea placeholder="Mensaje"></textarea>
+                      <button type="button" class="btn btn-secondary">
+                        <span>Enviar</span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </header>
   </body>
