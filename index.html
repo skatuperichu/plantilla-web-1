@@ -80,6 +80,7 @@
         </article>
         <article
           class="container-lg text-center p-3 mb-2 d-flex justify-content-center"
+          id="preguntas-frecuentes"
         >
           <div class="row">
             <div class="col-md-4">
@@ -114,7 +115,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4" id="preguntas-frecuentes">
+            <div class="col-md-4">
               <style>
                 .collapse {
                   display: none;
@@ -138,9 +139,8 @@
                       </div>
                       <div>
                         <p class="collapse" id="respuesta1">
-                          Para solicitar un turno completa el formulario que se
-                          encuentra debajo, en la sección "Turnos / Reservas
-                          particulares"
+                          Para solicitar un turno completa este
+                          <a href="#turnos"> formulario</a>.
                         </p>
                       </div>
                     </div>
@@ -242,14 +242,17 @@
                         <select>
                           <option value="opcion1">Opcion 1</option>
                           <option value="opcion2">Opcion 2</option>
-                          <option value="opcion3">Opcion 3</option></select
-                        >//chequear
+                          <option value="opcion3">Opcion 3</option>
+                        </select>
                       </div>
                     </div>
                   </div>
                   <div class="col-12">
                     <div>
-                      <textarea placeholder="Mensaje"></textarea>
+                      <textarea
+                        class="mensaje"
+                        placeholder="Mensaje"
+                      ></textarea>
                       <button type="button" class="btn btn-secondary">
                         <span>Enviar</span>
                       </button>
