@@ -17,16 +17,21 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Vollkorn&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container-fluid">
+      <nav class="container navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid align-items-center">
           <a class="navbar-brand" href="#"
             ><img src="./images/icons8-estetoscopio-64.png"
-          /></a>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          />Dra. Camila Gallo</a>
+          <ul class="navbar-nav me-auto mb-1">
+            <li class="nav-item" style="font-size: 20px"></li>
             <li class="nav-item">
               <a class="nav-link" href="#">Endocrinología</a>
             </li>
@@ -41,14 +46,18 @@
           </ul>
         </div>
       </nav>
-      <div
+
+      <article
         class="cover d-flex justify-content-center align-items-center flex-column"
       >
         <div class="presentacion flex-column">
           <h1 class="titu">Dra. Camila Gallo</h1>
           <p class="subt">Especialista en Endocrinología</p>
         </div>
-      </div>
+      </article>
+
+      <hr />
+
       <section>
         <article class="container-lg">
           <div class="row">
@@ -59,7 +68,7 @@
               />
             </div>
             <div class="col-sm-6 p-3 d-flex align-items-center">
-              <div class="texto-descriptivo">
+              <div class="texto-descriptivo bg-body-tertiary">
                 La Dra. Camila Gallo es una médica especialista en
                 endocrinología con más de 10 años de experiencia en el
                 tratamiento de enfermedades relacionadas con el sistema
@@ -78,6 +87,7 @@
             </div>
           </div>
         </article>
+
         <article
           class="container-lg text-center p-3 mb-2 d-flex justify-content-center"
           id="preguntas-frecuentes"
@@ -86,8 +96,8 @@
             <div class="col-md-4">
               <div class="card" style="width: 18rem">
                 <div class="card-body">
-                  <h5 class="card-title">Endocrinología</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">¿Qué es?</h6>
+                  <h5 class="card-title" style="color: rgba(125, 5, 172, 0.842);">Endocrinología</h5>
+                 
 
                   <p class="card-text">
                     La endocrinología es una disciplina de la medicina que
@@ -100,7 +110,7 @@
             <div class="col-md-4">
               <div class="card" style="width: 18rem">
                 <div class="card-body">
-                  <h5 class="card-title">
+                  <h5 class="card-title" style="color: rgba(125, 5, 172, 0.842);">
                     ¿Por qué es importante controlarse?
                   </h5>
                   <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -123,7 +133,7 @@
               </style>
               <div class="card" style="width: 18rem">
                 <div class="card-body">
-                  <h5 class="card-title">Preguntas frecuentes</h5>
+                  <h5 class="card-title" style="color: rgba(125, 5, 172, 0.842);">Preguntas frecuentes</h5>
 
                   <div class="text-center">
                     <div>
@@ -138,9 +148,11 @@
                         </button>
                       </div>
                       <div>
-                        <p class="collapse" id="respuesta1">
-                          Para solicitar un turno completa este
-                          <a href="#turnos"> formulario</a>.
+                        <p class="collapse" id="respuesta1">//CHEQUEAR
+                          <div class="respuestas">
+                            Para solicitar un turno completa este
+                            <a href="#turnos"> formulario</a>.
+                          </div>
                         </p>
                       </div>
                     </div>
@@ -156,7 +168,8 @@
                           ¿Con qué cobertura médica trabajan?
                         </button>
                       </div>
-                      <div class="collapse" id="respuesta2">
+                      <div class="collapse" id="respuesta2">//CHEQUEAR
+                        <div class="respuestas">
                         <p>
                           <b>Osde</b>:
                           <i>Planes: 210 - 310 - 410 - 450 - 510</i>
@@ -165,6 +178,7 @@
                           <b>Swiss Medical</b>:
                           <i>Consultar planes</i>
                         </p>
+                        </div>
                       </div>
                       <br />
                     </div>
@@ -180,7 +194,7 @@
                         </button>
                       </div>
                       <div>
-                        <p class="collapse" id="respuesta3">
+                        <p class="collapse" id="respuesta3">//CHEQUEAR
                           En la ciudad de Baradero, Malabia 312
                         </p>
                       </div>
@@ -203,67 +217,62 @@
           </div>
         </article>
       </section>
+
+      <hr />
+
       <section>
         <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="contact-panel d-flex flex-wrap">
-                <form>
-                  <div class="row">
-                    <div class="col-sm-12" id="turnos">
-                      <h4>Turnos / Reservas particulares</h4>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div>
-                        <input
-                          type="text"
-                          placeholder="Nombre"
-                          name="contact-name"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div>
-                        <input type="text" placeholder="Email" />
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div>
-                        <input
-                          type="text"
-                          placeholder="Telefono"
-                          name="contact-name"
-                        />
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div>
-                        <input type="text" placeholder="Asunto" />
-                        <select>
-                          <option value="opcion1">Opcion 1</option>
-                          <option value="opcion2">Opcion 2</option>
-                          <option value="opcion3">Opcion 3</option>
-                        </select>
-                      </div>
-                    </div>
+          <div class="contact-panel">
+            <form>
+              <div class="col-sm-12" id="turnos">
+                <h4>Turnos / Reservas particulares</h4>
+              </div>
+              <div class="cajitamensaje">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <input type="text" placeholder="Nombre" name="contact-name" />
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <input type="text" placeholder="Email" />
+                </div>
+
+                
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <input
+                      type="text"
+                      placeholder="Telefono"
+                      name="contact-name"
+                    />
                   </div>
-                  <div class="col-12">
-                    <div>
+                
+                
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <input type="text" placeholder="Asunto" />
+                    <select>
+                      <option value="opcion1">Opcion 1</option>
+                      <option value="opcion2">Opcion 2</option>
+                      <option value="opcion3">Opcion 3</option>
+                    </select>
+                  </div>
+
+                  
+                    <div class="col-12" >
                       <textarea
                         class="mensaje"
                         placeholder="Mensaje"
                       ></textarea>
-                      <button type="button" class="btn btn-secondary">
-                        <span>Enviar</span>
-                      </button>
                     </div>
-                  </div>
-                </form>
+
+                </div>
+                <button type="button" class="btn btn-secondary">
+                    Enviar
+                  </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </section>
+      <hr />
     </header>
   </body>
 </html>
