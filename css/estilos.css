@@ -55,6 +55,7 @@ hr {
 
 .respuestas {
   border: 1px solid black;
+  margin-top: 25px;
   padding: 3px;
 }
 
